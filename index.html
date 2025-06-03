@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketan Kurve | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-icon">Pf</div>
+            <span>Ketan's Portfolio</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#blog">Blog</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="greeting">Hello!</p>
+                <h1>I'm <span class="highlight">Ketan Kurve</span></h1>
+                <p class="typing-container">I am a&nbsp;<span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                <div class="cta-buttons">
+                    <a href="https://linkedin.com/" class="btn linkedin">LinkedIn</a>
+                    <a href="#projects" class="btn projects">My Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="placeholder-profile.png" alt="Ketan Kurve">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="placeholder-profile.png" alt="Ketan Kurve">
+            <div class="about-text">
+                <p>Hey there! I'm Ketan Kurve, an enthusiastic B.Tech student in Artificial Intelligence at G H Raisoni College of Engineering & Management, Nagpur. With hands-on experience in Frontend Web Development, UI design, WordPress Development, I'm eagerly diving deeper to boost my skills and creativity.</p>
+                <p>I'm a fast learner and incredibly passionate about Web Designs. I've also explored the realms of HTML, CSS, JavaScript, and Python through various projects.</p>
+                <p>I have databases knowledge in SQL and worked on MySQL.</p>
+                <p>I also have some experience in Data Visualization using Microsoft Power BI.</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <!-- <span>UI/UX Design</span> -->
+                        <span>WordPress</span>
+                        <span>Power BI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <!-- Project cards will be added here -->
+            <div class="project-card">
+                <h3>E-commerce Website</h3>
+                <p>Built a responsive e-commerce site for fresh organic food using HTML, CSS, and JavaScript. Implemented product listing, shopping cart, and navigation. </p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://ketankurve.github.io/ecommerce/" target="_blank" rel="noopener noreferrer" class="btn primary">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Travel Booking Website</h3>
+                <p>Developed a static travel booking website using HTML, CSS, and JavaScript, featuring destination pages and a booking form. Implemented modular code with separate scripts and stylesheets for maintainability.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://ketankurve.github.io/travel_booking/" target="_blank" rel="noopener noreferrer" class="btn primary">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>To-Do List</h3>
+                <p>Built a simple and responsive To-Do List application built using HTML, CSS, and JavaScript.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://ketankurve.github.io/todolist/" target="_blank" rel="noopener noreferrer" class="btn primary">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <h3>Blog Post 1</h3>
+                <p>Preview of blog post content...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-card">
+                <h3>Blog Post 2</h3>
+                <p>Preview of blog post content...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/ketankurve" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ketan-kurve/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ketan Kurve. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
